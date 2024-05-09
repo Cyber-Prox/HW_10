@@ -86,3 +86,13 @@
    86  git merge develop
    87  git log
    88  history > command_list.csv
+   89  git add .
+   90  git commit -m "mod 5"
+   91  git push
+   92  git chekout develop
+   93  git --help
+   94  git checkout -b develop
+   95  git checkout main
+   96  git merge develop
+   97  git log
+   98  history > command_list.csv
