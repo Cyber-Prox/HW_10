@@ -1,0 +1,88 @@
+    1  cd
+    2  pwd
+    3  cd D/repos
+    4  pwd
+    5  clear
+    6  sd [200~D:\repos~
+    7  pwd
+    8  clear
+    9  cd /c/Users/nikki/
+   10  cd /d/Users/nikki/repos
+   11  pwd
+   12  cd /c/Users/nikki/Documents/
+   13  pwd
+   14  cd /c/Users/nikki/Documents/rep
+   15  pwd
+   16  clear
+   17  pwd
+   18  ls
+   19  pwd
+   20  cd /c/Users/nikki/Documents/
+   21  ls
+   22  cd ..rep
+   23  pwd
+   24  /c/Users/nikki/Documents/rep/
+   25  pwd
+   26  ls
+   27  ls -l
+   28  whoami
+   29  pwd
+   30  ls-la
+   31  ls -la
+   32  touch text.txt
+   33  ls -l
+   34  nano text.txt 
+   35  df -h
+   36  pwd
+   37  systeminfo
+   38  clear
+   39  pwd
+   40  rm text.txt 
+   41  mkdir repo
+   42  cd repo
+   43  git config --global user.name Cyber-Prox
+   44  git config --get user.name
+   45  git config --global user.email nikmonstr@gmail.com
+   46  git config --get user.email
+   47  git clone https://github.com/Cyber-Prox/HW_10.git
+   48  ls -l
+   49  touch text_ignore.txt
+   50  pwd
+   51  ../HW_10
+   52  pwd
+   53  cd ~/Documents/repo/HW_10/
+   54  pwd
+   55  touch text_ignore.txt
+   56  git status
+   57  nano .gitignore
+   58  git status
+   59  git add
+   60  git add .
+   61  commit
+   62  git status
+   63  git commit -m "mod 1"
+   64  git status
+   65  git lig
+   66  git status
+   67  git log
+   68  touch main_test.txt
+   69  git add .
+   70  commit -m "mod 2"
+   71  git commit -m "mod 2"
+   72  git checkout -b <develope>
+   73   git checkout -b develope
+   74  checkout
+   75  git checkout
+   76  pwd
+   77  touch develop_test.txt
+   78  git add .
+   79  git commit -m "mod 3"
+   80  nano develop_test.txt
+   81  git status
+   82  git add .
+   83  git commit -m "mod 4"
+   84  git checkout
+   85  git checkout main
+   86  git merge develop
+   87  git log
+   88  history > command_list.csv
